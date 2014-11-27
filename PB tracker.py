@@ -109,14 +109,7 @@ while 1:
 
     if menu == ('1'):
         print ('You have selected 1. Please enter the name of the game. Enter to return.')
-<<<<<<< HEAD
         addGame()           
-=======
-        addGame()
-                
-            
->>>>>>> FETCH_HEAD
-            
                     
                 
     elif menu == ('2'):
