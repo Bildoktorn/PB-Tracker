@@ -110,40 +110,6 @@ while 1:
     if menu == ('1'):
         print ('You have selected 1. Please enter the name of the game. Enter to return.')
         addGame()
-#        while 1:
-#            gamename = input ('')
-#            if not gamename.strip():
-#                print (intro)
-#                break
-#            k = dupeCheck('1', gamename)
-#            if k:
-#                print ('You already have a game named that.')
-#            else:
-#                games.append(game(gamename))
-#                
-#                print ('Please add a category to ' + gamename + '.')
-#                while 1:
-#                    catname = input ('')
-#                    if not catname:
-#                        print ('You need to add a category to continue')
-#                    else:
-#                        break
-#                print ('Please add a PB to ' + catname + '.')
-#                while 1:
-#                    peebee = input ('')
-#                    if not peebee:
-#                        print ('I\'m sure you\'re fast, but not that fast')
-#                    else:
-#                        for p, f in enumerate(games):
-#                            if gamename == f.name:                                break
-#                            else:
-#                                p = 0
-#                        games[p].categories[catname] = (peebee)
-#                        break
-#                    break
-#                    
-#                print ('Game succesfully added. Continue to add more if you wish, enter to return.')
-#            k = 0
                 
             
             
