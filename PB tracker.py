@@ -145,42 +145,7 @@ while 1:
                 Catadd = addCat(gamename, 1)
                 if Catadd:
                     print (intro)
-                    break
-#            print ('You have selected', games[n].name + '. Please enter the name of the category. Enter to return.')
-#            while 1:
-#                while 1:
-#                    catname = input ('')
-#                    if not catname:
-#                        break
-#                    else:
-#                        pass
-#                    for x in games[n].categories.keys():
-#                        if catname == x:
-#                            q = 1
-#                            break
-#                        else:
-#                            q = 0
-#
-#                    print (catname)
-#                    if q:
-#                        print ('You already have a category named that.')
-#                    else:
-#                        break
-#                    q = 0
-#                if not catname:
-#                    print (intro)
-#                    break
-#                
-#                print ('What is your PB in ' + catname + '?')
-#                while 1:
-#                    
-#                    peebee = input ('')
-#                    if not peebee:
-#                        print ('I\'m sure you\'re fast, but not that fast')
-#                    else:
-#                        games[n].categories[catname] = (peebee)
-#                        print ('PB succesfully added to ' + catname + '. Continue to add categories if you wish, enter to return.')
-#                        break           
+                    break       
             
 
                 
